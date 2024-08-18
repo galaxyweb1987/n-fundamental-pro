@@ -1,3 +1,6 @@
+#Root url
+GET http://localhost:3000
+
 #Find songs request
 GET http://localhost:3000/songs
 
@@ -6,6 +9,14 @@ GET http://localhost:3000/songs/1
 
 ### Create new songs request
 POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+  "title": "lasting lover",
+  "artists": ["sigla"],
+  "releasedDate": "2022-09-29",
+  "duration": "02:34"
+}
 
 ### Update songs request
 PUT http://localhost:3000/songs/1
