@@ -1,7 +1,7 @@
 #Root url
 GET http://localhost:3000
 
-#Find songs request
+###Find songs request
 GET http://localhost:3000/songs
 
 ### Find song request
